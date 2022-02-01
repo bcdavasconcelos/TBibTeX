@@ -12,7 +12,7 @@ To add a new entry, simply create a new note and choose the appropriate prototyp
 
 ## Exporting
 
-To export a BibTeX file, all you have to do is select the Content note and then hit File > Export Selected Note. There is no need to export all the notes in the file, as the content uses a preview template that will incorporate all of them. Alternatively, you could also just copy and paste the text in the export pane and paste anywhere you need it.   
+To export a BibTeX file, all you have to do is select the Content note and then hit File > Export Selected Note. There is no need to export all the notes in the file, as the content uses a preview template that will incorporate all of them. Alternatively, you could also just copy the text in the export pane and paste anywhere you need it.   
 
 ## Keeping notes under bib references
 
@@ -24,15 +24,15 @@ One of the motivations for making this template is that I prefer having my bibli
 
 ## Alfred Workflow
 
-To make this easier, I am already including the Alfred Workflow with the template. The Workflow will not search the Tbx project directly. Instead, it will use a special version of the bib file that this template can also create. In this case, it is actually JSON and not BibTex. Alfred likes this format and the search works really fast.   
+To make this easier, I am already including the Alfred Workflow with the template. The Workflow will not search the Tbx project directly (I might include this option later). Instead, it will use a special version of the bib file that this template can also create. In this case, it is actually JSON and not BibTex: Alfred likes this format and the search works really fast.   
 
 ## BibTex and JSON Export
 
-Again, to make things easier, I already included an Applescript in the Alfred Workflow which will update both your BibTeX and JSON files, exporting them to the location will have chosen. To update, simply activate the workflow and hit ⇧⏎. To export the files for the first time, open Alfred and type TBibTexExport.   
+Again, to make things easier, I already included an Applescript in the Alfred Workflow which will update both your BibTeX and JSON files, exporting them to the chosen location. To update, simply activate the workflow and hit ⇧⏎. To export the files for the first time, open Alfred and type TBibTexExport.   
 
 ## Caveats
 
-Should you decide to change the file name, you will have to update the Alfred Workflow. Open Alfred’s configuration, go to the workflow and open the only item in red. Once you do that, you will see this:
+Should you decide to change the Tbx project file name, you will have to update the Alfred Workflow. Open Alfred’s configuration, go to the workflow and open the only item in red. Once you do that, you will see this:
 
 ```applescript
 ----------------------------------------
